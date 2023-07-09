@@ -16,9 +16,9 @@ int GetInfo (string message)
 
 int coorA1 = GetInfo("Введите координату X точки А: ");
 int coorA2 = GetInfo("Введите координату У точки А: ");
-int coorA3 = GetInfo("Введите координату z точки А: ");
+int coorA3 = GetInfo("Введите координату Z точки А: ");
 int coorB1 = GetInfo("Введите координату X точки В: ");
 int coorB2 = GetInfo("Введите координату У точки В: ");
-int coorB3 = GetInfo("Введите координату z точки B: ");
+int coorB3 = GetInfo("Введите координату Z точки B: ");
 
 Console.WriteLine($"Расстояние между двумя точками в трёхмерном пространстве равно {Lenght(coorA1, coorA2, coorA3, coorB1, coorB2, coorB3)}");
