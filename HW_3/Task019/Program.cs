@@ -5,8 +5,7 @@
 
 string Palindrome(string num)
 {
-    char[] arrayNum = num.ToCharArray();
-    if (arrayNum[0] == arrayNum[4] & arrayNum[1] == arrayNum[3]) return "да";
+    if (num[0] == num[4] & num[1] == num[3]) return "да";
     else return "нет";
 }
 
