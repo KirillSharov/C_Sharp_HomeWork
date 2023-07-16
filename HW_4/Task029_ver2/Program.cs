@@ -1,4 +1,8 @@
-﻿void PrintArray(int i, int[] array)
+﻿// Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+// 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
+// 6, 1, 33 -> [6, 1, 33]
+
+void PrintArray(int i, int[] array)
 {
     Console.Write("[");
     for (int k = 0; k < i-1; k++)
@@ -21,5 +25,5 @@ int FillArray(string message, int[] array)
 }
 
 int[] userArray = new int[100];
-int i = FillArray("Введите последовательность чисел для заполнения массива, когда закончите - введите 'end'", userArray);
-PrintArray(i, userArray);
+int arrayElementCount = FillArray("Введите последовательность чисел для заполнения массива, когда закончите - введите 'end'", userArray);
+PrintArray(arrayElementCount, userArray);
